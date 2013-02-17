@@ -1,4 +1,4 @@
-LaTeX_Dokument
+LaTeX Dokument
 ==============
 
 LaTeX Vorlage für Dokumente
