@@ -17,6 +17,7 @@
 \usepackage{ngerman}
 \usepackage{graphicx}
 \usepackage{color}
+\usepackage{ccicons}
 
 \usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue]{hyperref}
 
@@ -55,7 +56,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrulewidth}{0.5pt}
-\fancyhead[L]{\nouppercase{\TITLE}}
+\fancyhead[L]{\nouppercase{\SUBJECT}}
 \fancyhead[R]{\nouppercase{\leftmark}}
 \renewcommand{\footrulewidth}{0.5pt}
 \fancyfoot[L]{\AUTHOR}
@@ -83,31 +84,5 @@
     backgroundcolor=\color{light-gray},
     showstringspaces=false,                      % Spezielles Zeichen für Leerzeichen
 }
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Dokument start
-\begin{document}
-
-% Titelseite
-\begin{titlepage}
-  \maketitle
-  \thispagestyle{empty} % Don't start page numbers on this page
-  \vfill
-  \begin{figure}[!htbp]
-    \centering
-    \includegraphics[width=300px]{hsr_logo.pdf}
-  \end{figure}
-\end{titlepage}
-
-% Inhaltsverzeichnis
-\setcounter{page}{1}
-\tableofcontents
-
-% CC BY-SA Lizenz
-\vfill
-\begin{center}
-  \includegraphics[width=90px]{cc_by-sa.pdf}
-\end{center}
-\newpage
 
 % EOF
